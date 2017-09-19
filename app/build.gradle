@@ -6,6 +6,9 @@ android {
     buildToolsVersion '25.0.0'
     useLibrary 'org.apache.http.legacy'
 
+    apply plugin: 'com.android.application'
+
+
     repositories {
         mavenCentral()
         jcenter()
@@ -35,7 +38,6 @@ android {
     }
 
 }
-
 apply plugin: 'com.neenbedankt.android-apt'
 
 dependencies {
