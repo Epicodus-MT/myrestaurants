@@ -1,4 +1,4 @@
-<img src="epicodus.png" align="right">
+<img src="mara.jpg" align="right">
 
 # MyRestaurants
 Android Project
