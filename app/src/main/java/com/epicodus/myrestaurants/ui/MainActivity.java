@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 //        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 //        mEditor = mSharedPreferences.edit();
-git
         mFindRestaurantsButton.setOnClickListener(this);
     }
 
