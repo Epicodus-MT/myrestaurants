@@ -1,9 +1,5 @@
 package com.epicodus.myrestaurants.util;
 
-/**
- * Created by Guest on 9/25/17.
- */
-
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
@@ -46,4 +42,3 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
         mAdapter.onItemDismiss(viewHolder.getAdapterPosition());
     }
 }
-
