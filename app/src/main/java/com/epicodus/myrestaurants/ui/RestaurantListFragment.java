@@ -43,8 +43,7 @@ public class RestaurantListFragment extends Fragment {
     private String mRecentAddress;
     private OnRestaurantSelectedListener mOnRestaurantSelectedListener;
 
-    public RestaurantListFragment() {
-    }
+    public RestaurantListFragment() {}
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

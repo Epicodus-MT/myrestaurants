@@ -1,19 +1,14 @@
 package com.epicodus.myrestaurants.ui;
-
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import com.epicodus.myrestaurants.Constants;
 import com.epicodus.myrestaurants.R;
 import com.epicodus.myrestaurants.models.Restaurant;
 import com.epicodus.myrestaurants.util.OnRestaurantSelectedListener;
-
 import org.parceler.Parcels;
-
 import java.util.ArrayList;
-
 
 public class RestaurantListActivity extends AppCompatActivity implements OnRestaurantSelectedListener {
     private Integer mPosition;
