@@ -12,6 +12,8 @@ _This is an Android Application to locate restaurants._
 |Behavior|Input|Output|
 |---|---|---|
 |User enters zip code for desired location|98115|Restaurant names, picture and rating displayed in list order|
+|User opens app to Login Page|Does not have an account, clicks on "Sign-up Here" |User info saved to Firebase, app loads MainActivity page|
+|User does to RestaurantDetail page|Clicks on 'Save Restaurant' button|Restaurant saved to Firebase and available for user viewing on SaveRestaurantActivity page|
 
 ## Technologies Used
 
@@ -34,6 +36,21 @@ myrestaurants/
 |    └── src/
 |    |     └── androidTest/
 |    |     └── main/
+|    |     |    └── java/
+|    |     |    |     └── com.epicodus.myrestaurants/
+|    |     |    |            └── adapters/
+|    |     |    |            └── models/
+|    |     |    |            └── services/
+|    |     |    |            └── ui/
+|    |     |    |            └── util/
+|    |     |    |            └── Constants
+|    |     |    └── res/
+|    |     |    |     └── drawable/
+|    |     |    |     └── layout/
+|    |     |    |     └── menu/
+|    |     |    |     └── mipmap/
+|    |     |    |     └── values/
+|    |     |    └── AndroidManifest.xml
 |    |     └── test/
 |    └── .gitignore
 |    └── app.iml
